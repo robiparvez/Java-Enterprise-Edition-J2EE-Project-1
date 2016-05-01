@@ -1,0 +1,11 @@
+my sql connection
+---------------------------
+IP:172.16.7.26
+database: db
+user:atp-1
+pass:atp-1
+table:log
+		username->varchar (20)
+		pass->varchar (20)
+		**no unique key
+DriverManager.getConnection("jdbc:mysql://172.16.7.26:3306/db","atp-1","atp-1");
